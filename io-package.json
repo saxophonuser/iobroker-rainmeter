@@ -1,0 +1,96 @@
+{
+    "common": {
+        "name": "rainmeter",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Regenwippe",
+        "titleLang": {
+            "en": "Rain meter",
+            "de": "Regenmesser",
+            "ru": "Измеритель дождя",
+            "pt": "Medidor de chuva",
+            "nl": "Regen meter",
+            "fr": "Pluviomètre",
+            "it": "Misuratore di pioggia",
+            "es": "Medidor de lluvia",
+            "pl": "Miernik deszczu",
+            "zh-cn": "雨量计"
+        },
+        "desc": {
+            "en": "Rain gauge with rain rocker",
+            "de": "Regenmessung mittels Regenwippe",
+            "ru": "Датчик дождя с датчиком дождя",
+            "pt": "Pluviômetro com balancim",
+            "nl": "Regenmeter met regenwip",
+            "fr": "Pluviomètre avec culbuteur",
+            "it": "Pluviometro con pluviometro",
+            "es": "Pluviómetro con balancín de lluvia",
+            "pl": "Deszczomierz z deszczownicą",
+            "zh-cn": "雨量计与雨板"
+        },
+        "authors": [
+            "Author <saxophonuser@web.de>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "rain meter",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "rainmeter.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Author/ioBroker.rainmeter/master/admin/rainmeter.png",
+        "readme": "https://github.com/Author/ioBroker.rainmeter/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "general",
+        "compact": true,
+        "materialize": true,
+        "materializeTab": true,
+        "adminTab": {
+            "singleton": true,
+            "name": {
+                "en": "Rain meter",
+                "de": "Regenmesser",
+                "ru": "Шаблон (JavaScript)",
+                "pt": "Modelo (JavaScript)",
+                "nl": "Sjabloon (JavaScript)",
+                "fr": "Modèle (JavaScript)",
+                "it": "Modello (JavaScript)",
+                "es": "Plantilla (JavaScript)",
+                "pl": "Szablon (JavaScript)",
+                "zh-cn": "范本（JavaScript）"
+            },
+            "link": "",
+            "fa-icon": "info"
+        },
+        "supportCustoms": true,
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
