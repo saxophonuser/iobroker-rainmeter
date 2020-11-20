@@ -1,6 +1,4 @@
 {
-    "option1": "选项1",
-    "option2": "选项2",
-    "rainmeter adapter settings": "template的适配器设置",
-    "rainmeter wasser zähler": "雨表水计数器"
+    "rainmeter adapter settings": "雨量计的适配器设置",
+    "triggerVariable": "雨水摇杆的触发变量"
 }

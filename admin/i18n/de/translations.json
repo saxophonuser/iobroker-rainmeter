@@ -1,6 +1,4 @@
 {
-    "option1": "Option 1",
-    "option2": "Option 2",
-    "rainmeter adapter settings": "Adaptereinstellungen für template",
-    "rainmeter wasser zähler": "Regenzähler Wasserzähler"
+    "rainmeter adapter settings": "Adaptereinstellungen für Regenmesser",
+    "triggerVariable": "Auslösevariable für Regenwippe"
 }

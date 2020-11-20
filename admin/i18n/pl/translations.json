@@ -1,6 +1,4 @@
 {
-    "option1": "opcja 1",
-    "option2": "Opcja 2",
-    "rainmeter adapter settings": "Ustawienia adaptera dla template",
-    "rainmeter wasser zähler": "Licznik wody w liczniku deszczu"
+    "rainmeter adapter settings": "Ustawienia adaptera dla deszczomierza",
+    "triggerVariable": "Zmienna wyzwalająca dla rockera przeciwdeszczowego"
 }

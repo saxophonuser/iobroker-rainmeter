@@ -1,6 +1,4 @@
 {
-    "option1": "Opção 1",
-    "option2": "opção 2",
-    "rainmeter adapter settings": "Configurações do adaptador para template",
-    "rainmeter wasser zähler": "Contador de água do pluviômetro"
+    "rainmeter adapter settings": "Configurações do adaptador para medidor de chuva",
+    "triggerVariable": "Variável de gatilho para rain rocker"
 }
