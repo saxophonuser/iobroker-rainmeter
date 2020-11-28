@@ -1,4 +1,5 @@
 {
+    "rainQuantity": "Quantité de pluie par changement de culbuteur en mm",
     "rainmeter adapter settings": "Paramètres de l'adaptateur pour le pluviomètre",
     "triggerVariable": "Variable de déclenchement pour rocker pluie"
 }

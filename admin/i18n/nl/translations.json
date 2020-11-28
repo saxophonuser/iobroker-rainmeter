@@ -1,4 +1,5 @@
 {
+    "rainQuantity": "Hoeveelheid regen per wisseling van rocker in mm",
     "rainmeter adapter settings": "Adapterinstellingen voor regenmeter",
     "triggerVariable": "Trigger-variabele voor regenwip"
 }

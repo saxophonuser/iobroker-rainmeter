@@ -1,4 +1,5 @@
 {
+    "rainQuantity": "Quantidade de chuva por mudança de balancim em mm",
     "rainmeter adapter settings": "Configurações do adaptador para medidor de chuva",
     "triggerVariable": "Variável de gatilho para rain rocker"
 }

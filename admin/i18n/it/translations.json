@@ -1,4 +1,5 @@
 {
+    "rainQuantity": "Quantità di pioggia per cambio di bilanciere in mm",
     "rainmeter adapter settings": "Impostazioni adattatore per pluviometro",
     "triggerVariable": "Trigger variabile per pioggia rocker"
 }

@@ -1,4 +1,5 @@
 {
+    "rainQuantity": "Regenmenge pro Kipphebelwechsel in mm",
     "rainmeter adapter settings": "Adaptereinstellungen für Regenmesser",
     "triggerVariable": "Auslösevariable für Regenwippe"
 }

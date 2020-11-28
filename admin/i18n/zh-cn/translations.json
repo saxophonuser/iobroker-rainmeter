@@ -1,4 +1,5 @@
 {
+    "rainQuantity": "跷板每次变化的雨量，单位：mm",
     "rainmeter adapter settings": "雨量计的适配器设置",
     "triggerVariable": "雨水摇杆的触发变量"
 }

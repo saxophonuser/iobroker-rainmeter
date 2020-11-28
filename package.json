@@ -1,26 +1,39 @@
 {
-  "name": "iobroker.rainmeter",
-  "version": "0.0.1",
-  "description": "Regenmessung mittels Regenwippe",
+  "_from": "file:/opt/iobroker/node_modules/ioBroker-rainmeter/iobroker.rainmeter-0.0.1.tgz",
+  "_id": "iobroker.rainmeter@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-k2MVKegwjKgxbeiK9BHzYpwvXQjk34w0qkioRJJKAeQGG5du7R6pNZIB/q4gagdc6AUgWWVW3RTmzXVGSMrCYw==",
+  "_location": "/iobroker.rainmeter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/opt/iobroker/node_modules",
+    "raw": "/opt/iobroker/node_modules/ioBroker-rainmeter/iobroker.rainmeter-0.0.1.tgz",
+    "rawSpec": "/opt/iobroker/node_modules/ioBroker-rainmeter/iobroker.rainmeter-0.0.1.tgz",
+    "saveSpec": "file:/opt/iobroker/node_modules/ioBroker-rainmeter/iobroker.rainmeter-0.0.1.tgz",
+    "fetchSpec": "/opt/iobroker/node_modules/ioBroker-rainmeter/iobroker.rainmeter-0.0.1.tgz"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "/opt/iobroker/node_modules/ioBroker-rainmeter/iobroker.rainmeter-0.0.1.tgz",
+  "_shasum": "71b147130541b98e3019838586377e93e161ea39",
+  "_spec": "/opt/iobroker/node_modules/ioBroker-rainmeter/iobroker.rainmeter-0.0.1.tgz",
+  "_where": "/opt/iobroker/node_modules",
   "author": {
     "name": "Stefan Freude",
     "email": "saxopohonuser@web.de"
   },
-  "homepage": "https://github.com/Author/ioBroker.template",
-  "license": "MIT",
-  "keywords": [
-    "ioBroker",
-    "rainmeter",
-    "Smart Home",
-    "home automation"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Author/ioBroker.template"
+  "bugs": {
+    "url": "https://github.com/Author/ioBroker.template/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "@iobroker/adapter-core": "^2.4.0"
   },
+  "deprecated": false,
+  "description": "Regenmessung mittels Regenwippe",
   "devDependencies": {
     "@iobroker/testing": "^2.3.0",
     "@types/chai": "^4.2.14",
@@ -42,18 +55,28 @@
     "sinon-chai": "^3.5.0",
     "typescript": "^4.0.5"
   },
+  "homepage": "https://github.com/Author/ioBroker.template",
+  "keywords": [
+    "ioBroker",
+    "rainmeter",
+    "Smart Home",
+    "home automation"
+  ],
+  "license": "MIT",
   "main": "main.js",
+  "name": "iobroker.rainmeter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Author/ioBroker.template.git"
+  },
   "scripts": {
+    "check": "tsc --noEmit -p tsconfig.check.json",
+    "lint": "eslint",
+    "test": "npm run test:js && npm run test:package",
+    "test:integration": "mocha test/integration --exit",
     "test:js": "mocha --config test/mocharc.custom.json \"{!(node_modules|test)/**/*.test.js,*.test.js,test/**/test!(PackageFiles|Startup).js}\"",
     "test:package": "mocha test/package --exit",
-    "test:unit": "mocha test/unit --exit",
-    "test:integration": "mocha test/integration --exit",
-    "test": "npm run test:js && npm run test:package",
-    "check": "tsc --noEmit -p tsconfig.check.json",
-    "lint": "eslint"
+    "test:unit": "mocha test/unit --exit"
   },
-  "bugs": {
-    "url": "https://github.com/Author/ioBroker.template/issues"
-  },
-  "readmeFilename": "README.md"
+  "version": "0.0.1"
 }

@@ -1,4 +1,5 @@
 {
+    "rainQuantity": "Ilość deszczu na zmianę wahacza w mm",
     "rainmeter adapter settings": "Ustawienia adaptera dla deszczomierza",
     "triggerVariable": "Zmienna wyzwalająca dla rockera przeciwdeszczowego"
 }

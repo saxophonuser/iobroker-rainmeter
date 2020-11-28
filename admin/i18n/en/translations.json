@@ -1,4 +1,5 @@
 {
+    "rainQuantity": "Rain quantity per change of rocker in mm",
     "rainmeter adapter settings": "Adapter settings for rainmeter",
     "triggerVariable": "Trigger variable for rain rocker"
 }
